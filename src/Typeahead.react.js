@@ -13,7 +13,7 @@ import addCustomOption from './utils/addCustomOption';
 import defaultFilterBy from './utils/defaultFilterBy';
 import getOptionLabel from './utils/getOptionLabel';
 import getTruncatedOptions from './utils/getTruncatedOptions';
-import {DOWN, ESC, RETURN, TAB, UP} from './utils/keyCode';
+import {DOWN, ESC, TAB, UP} from './utils/keyCode';
 
 // TODO: Remove once `paginateResults` is completely deprecated.
 function getMaxResults(props) {
@@ -33,7 +33,7 @@ const Typeahead = React.createClass({
     /**
      * Allows the creation of new selections on the fly. Note that any new items
      * will be added to the list of selections, but not the list of original
-     * options unless handled as such by `Typeahead`'s parent.
+     * options unless handled as such by `Typeahead`'s parerent.
      */
     allowNew: PropTypes.bool,
     /**
