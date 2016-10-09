@@ -1,6 +1,6 @@
 {
-  "name": "react-bootstrap-typeahead",
-  "version": "0.9.4",
+  "name": "react-bootstrap-typeahead-gilad",
+  "version": "0.9.5",
   "description": "React-based typeahead using the Bootstrap theme",
   "main": "lib/index.js",
   "directories": {
@@ -66,7 +66,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericgio/react-bootstrap-typeahead.git"
+    "url": "https://github.com/freeslugs/react-bootstrap-typeahead.git"
   },
-  "bugs": "https://github.com/ericgio/react-bootstrap-typeahead/issues"
+  "bugs": "https://github.com/freeslugs/react-bootstrap-typeahead/issues"
 }
