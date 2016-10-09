@@ -376,15 +376,6 @@ const Typeahead = React.createClass({
 
         this._hideDropdown();
         break;
-      case RETURN:
-        // Prevent submitting forms.
-        e.preventDefault();
-
-        if (this.state.showMenu) {
-          let selected = options[activeIndex];
-          selected && this._handleAddOption(selected);
-        }
-        break;
     }
   },
 
