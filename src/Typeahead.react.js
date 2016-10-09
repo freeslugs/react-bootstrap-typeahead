@@ -380,6 +380,7 @@ const Typeahead = React.createClass({
         if (this.state.showMenu) {
           let selected = options[activeIndex];
           selected && this._handleAddOption(selected);
+          e.preventDefault();
         }
         break;
     }
